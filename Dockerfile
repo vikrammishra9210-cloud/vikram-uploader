@@ -17,3 +17,4 @@ COPY . /app
 EXPOSE 8000
 
 CMD ["python3", "main.py"]
+ENV PYROGRAM_NO_APP_ENV=1
